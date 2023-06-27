@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "mssql1": {
+      "secretStore": "LocalSecretsFile",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/st10063915/databases/The_Ride_You_Rent",
+      "type": "mssql.azure",
+      "connectionId": "The_Ride_You_Rent"
+    }
+  }
+}
